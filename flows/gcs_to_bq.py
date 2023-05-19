@@ -8,7 +8,7 @@ def gcs_to_bq():
 
     result = bigquery_load_cloud_storage(
         dataset="raw",
-        table="test_table",
+        table="la_311_historical",
         uri="gs://la_311/*.parquet",
         location="europe-west2",
         gcp_credentials=gcp_credentials_block,

@@ -17,3 +17,6 @@ serving_dir
 *.json
 prefect.api.key
 *.gz
+target/
+dbt_packages/
+logs/

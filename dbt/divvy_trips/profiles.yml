@@ -1,0 +1,14 @@
+divvy_trips:
+  outputs:
+    dev:
+      dataset: uat
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /Users/cyrus/development/la-311-stats/rare-deployment-385022-f1d40921c589.json
+      location: europe-west2
+      method: service-account
+      priority: interactive
+      project: rare-deployment-385022
+      threads: 4
+      type: bigquery
+  target: dev
